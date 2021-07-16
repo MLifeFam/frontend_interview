@@ -1,19 +1,19 @@
 {
-  "name": "front-end",
-  "version": "0.0.1",
-  "description": "프론트엔드 스터디",
-  "main": "index.js",
-  "authors": {
-    "name": "Jongminfire",
-    "email": "jongminfire@gmail.com"
-  },
-  "repository": "Jongminfire/front-end",
-  "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.5.3"
-  }
+	"name": "front-end",
+	"version": "0.0.1",
+	"description": "프론트엔드 스터디",
+	"main": "index.js",
+	"authors": {
+		"name": "MLifeFam",
+		"email": "jongminfire@gmail.com"
+	},
+	"repository": "MLifeFam/frontend_interview",
+	"scripts": {
+		"dev": "vuepress dev src",
+		"build": "vuepress build src"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"vuepress": "^1.5.3"
+	}
 }
