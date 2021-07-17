@@ -1,19 +1,22 @@
 {
 	"name": "front-end",
 	"version": "0.0.1",
-	"description": "프론트엔드 스터디",
+	"description": "HTML,CSS,Javascript,네트워크 등 프론트엔드 개발자가 꼭 알아야 할 기술 지식에 대해 알아봅니다.",
 	"main": "index.js",
 	"authors": {
 		"name": "MLifeFam",
 		"email": "jongminfire@gmail.com"
 	},
-	"repository": "MLifeFam/frontend_interview",
+	"repository": "https://github.com/MLifeFam/frontend_interview",
 	"scripts": {
-		"dev": "vuepress dev src",
-		"build": "vuepress build src"
+		"dev": "vuepress dev",
+		"build": "vuepress build"
 	},
 	"license": "MIT",
 	"devDependencies": {
+		"@vuepress/plugin-back-to-top": "^1.8.2",
+		"@vuepress/plugin-medium-zoom": "^1.8.2",
 		"vuepress": "^1.5.3"
-	}
+	},
+	"author": "Jongminfire <51112542+Jongminfire@users.noreply.github.com>"
 }
