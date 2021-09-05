@@ -37,7 +37,7 @@ foo();
 
 ![stack](/img/javascript/execution_context/stack.png)
 
-###### <small> 이미지 출처 : [https://poiemaweb.com/js-execution-context](https://onepwnman.github.io/MST/) </small>
+###### <small> 이미지 출처 : [https://poiemaweb.com/js-execution-context](https://poiemaweb.com/js-execution-context) </small>
 
 <br/>
 
@@ -69,7 +69,7 @@ foo();
 
 ![structure](/img/javascript/execution_context/structure.png)
 
-###### <small> 이미지 출처 : [https://poiemaweb.com/js-execution-context](https://onepwnman.github.io/MST/) </small>
+###### <small> 이미지 출처 : [https://poiemaweb.com/js-execution-context](https://poiemaweb.com/js-execution-context) </small>
 
 <br/>
 
