@@ -149,7 +149,7 @@ function getTHisBinding() {
 const thisArg = { a: 1 };
 
 console.log(getThisBinding.bind(thisArg)); // getThisBinding
-console.log(getThisBinding.bind(thisArg)); // {a: 1}
+console.log(getThisBinding.bind(thisArg)()); // {a: 1}
 ```
 
 ```js
@@ -185,7 +185,7 @@ person.foo(function() {
 
 ## 6. 화살표 함수에서의 this
 
-화살푷 함수에서 this는 자신을 감싼 정적 범위이다. 전역 코드에서는 전역 객체를 가리킨다. 일종의 렉시컬 스코프와 유사하다고 볼 수 있다.
+화살표 함수에서 this는 자신을 감싼 정적 범위이다. 전역 코드에서는 전역 객체를 가리킨다. 일종의 렉시컬 스코프와 유사하다고 볼 수 있다.
 
 ```js
 const globalObject = this;
