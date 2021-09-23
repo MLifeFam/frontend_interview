@@ -6,6 +6,16 @@
 
 > "클로저는 함수와 그 함수가 선언됐을 때의 렉시컬 환경과의 조합이다"
 
+<br/>
+
+### 렉시컬 스코프
+
+렉시컬 스코프는 <b><u>함수가 선언이 되는 위치에 따라 다른 스코프</u></b>를 가지는 것을 의미한다. <br/>
+
+클로저는 만들어졌을 떄 환경을 기억하는데, 이 때 클로저가 기억하는 환경의 스코프가 렉시컬 스코프를 따르게 된다.
+
+<br/>
+
 ## 코드로 알아보는 클로저
 
 <br/>
@@ -196,15 +206,16 @@ for (var j = 0; j < funcs.length; j++) {
 var funcs = [];
 
 for (var i = 0; i < 3; i++) {
-	funcs[i] = function(id) {   // (1)
+	funcs[i] = (function(id) {
+		// (1)
 		return function() {
 			return id;
 		};
-	}(i));
+	})(i);
 }
 
-for (var j = 0; j < funcs.length; j++){
-    console.log(funcs[j]());
+for (var j = 0; j < funcs.length; j++) {
+	console.log(funcs[j]());
 }
 ```
 
